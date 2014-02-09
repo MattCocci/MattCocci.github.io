@@ -14,7 +14,7 @@ Some restaurants I like, with suggestions.
 * __Distrito__: Maybe a bit overpriced, but still good food.
 * __Hub Bub__: Great coffee, usually Stumptown.
 * __White Dog__: The type of restaurants parents love for dinner or brunch.
-* __Han Dynasty__: Dan Dan noodles. Might not be the most authentic szechuan if you're an expert, but if you're a Guailo like me, you won't know the difference and you'll like it. 
+* __Han Dynasty__: Dan Dan noodles. Might not be the most authentic Szechuan if you're an expert, but if you're a Guailo like me, you won't know the difference and you'll like it. 
 
 #### Broader West Philly
 

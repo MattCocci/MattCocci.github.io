@@ -11,7 +11,7 @@ In the past two years, I've turned to more command line tools that have really i
 
 - __Low Overhead__: My favorite programs and computing environments are often very bare-bones, requiring little memory that would otherwise freeze up my crappy old computer. They just get out of the way, focusing on content rather than a flashy, fussy interface.
 - __Greater Efficiency__: Point and click is not efficient.  It's slow, and it doesn't scale well with larger tasks and projects. My favorite programs work at the command prompt for experimentation and quick results, while _also_ working in a script for replication, repetition, and scale.
-- __Customization__: Fine-tuning and adaptability are always desireable. This happens in the "rc" and config files.  You can find mine at [link], although I'll talk about some of my favorite customizations below.
+- __Customization__: Fine-tuning and adaptability are always desirable. This happens in the "rc" and config files.  You can find mine at [link], although I'll talk about some of my favorite customizations below.
 
 Now for some specifics.
 
@@ -42,12 +42,12 @@ This is how I spend most of my computing time when I'm not online.  It looks thi
 
 - __Tmux__: This is the program that lets me split up the terminal as you see above. It divides a window into panes that each start out as a separate command prompt.  And if splitting panes in the same window isn't enough, it also lets you create multiple _windows_, which are like browser tabs that you can page through. They're listed in the black bar at the bottom. 
 
-- __Vim__: The lefthand pane is just vim, a fancy text editor.  It's like a version of Notepad that's not absolutely terrible. At the end of this note, I've placed some vim tricks I've found super helpful, along with my cheatsheat. But before getting too detailed, I'll just mention the main advantages, which include
+- __Vim__: The left-hand pane is just vim, a fancy text editor.  It's like a version of Notepad that's not absolutely terrible. At the end of this note, I've placed some vim tricks I've found super helpful, along with my cheatsheet. But before getting too detailed, I'll just mention the main advantages, which include
     - _Different Modes_: There's a mode for entering text (actually typing words and letters) and a mode for moving around---which essentially puts tricked-out arrow keys and keyboard shortcuts within reach of the home keys.  Because of this, you can fly around and edit the document with little effort. 
     - _Text Only_: Microsoft Word is annoying because it encourages you to worry about how your content _looks_ when you're trying to determine what your content should _say_.  These things are usually incompatible. Vim gets out of the way, and lets you type straight text.  Let downstream programs (like $\LaTeX$ or a Markdown parser) worry about formatting. 
 <p></p>
 
-- __iPython__: The upper-righthand pane is running iPython, a killer environment for programming in Python.  It merges Python (like you might use it in IDLE) with basic command line utilities (`cd`, `ls`, or `mkdir`), autocomplete, and an easier edit/save/run workflow. It also has a nifty and much-praised online notebook feature like Mathematica.
+- __iPython__: The upper right-hand pane is running iPython, a killer environment for programming in Python.  It merges Python (like you might use it in IDLE) with basic command line utilities (`cd`, `ls`, or `mkdir`), autocomplete, and an easier edit/save/run workflow. It also has a nifty and much-praised online notebook feature like Mathematica.
 
 
 <section id="Programming"></a></section>
@@ -64,7 +64,7 @@ However, it's less strong handling text, which is where the various command line
 
 ##### __Python__
 
-Python is the language to learn if you only have time for one language.  Comparied to R, Matlab, Stata, etc., it can be applied to much more general probelms (like shell scripting) with much less overhead and cludginess. It's also vastly superior if you're working with text and regular expressions.
+Python is the language to learn if you only have time for one language.  Compared to R, Matlab, Stata, etc., it can be applied to much more general problems (like shell scripting) with much less overhead and kludginess. It's also vastly superior if you're working with text and regular expressions.
 
 On top of that, it now has great libraries for matrix arrays, plotting, and handling datasets---nearly on par with R and Matlab.  My only gripe is that those libraries require a sometimes-annoying amount of cognitive overhead to use.   For example, unlike Matlab and R, you can't just fire it up and start playing around at the command line. You need to import from libraries like NumPy, SciPy, Matplotlib, which is fine, except that the location of certain functions within those libraries isn't always immediately obvious (or they might be many layers of nesting).
 
@@ -72,7 +72,7 @@ For that reason, I coded up MatPy, which is designed to put Python into a more M
 
     from matpy import *
 
-imports all of the usual functions right into your workspace for you: linear algebra functions, random number generation, and plotting, etc.[^2]  It also names them similarly to Matlab. This obviates the need for large or on-the-fly import statements when you just want to get going in a familar syntactical environment.
+imports all of the usual functions right into your workspace for you: linear algebra functions, random number generation, and plotting, etc.[^2]  It also names them similarly to Matlab. This obviates the need for large or on-the-fly import statements when you just want to get going in a familiar syntactical environment.
 
 ##### __Other Languages__
 
@@ -91,9 +91,9 @@ A word about some other languages:
 
 ### Composing Documents
 
-I became a much, much happier person when I ditched Word and PowerPoint for $\LaTeX$ and Beamer.  Aside from superb mathematical typsetting, here's why:
+I became a much, much happier person when I ditched Word and PowerPoint for $\LaTeX$ and Beamer.  Aside from superb mathematical typesetting, here's why:
 
-- __Plain Text Editing__: Has a text editor frozen anyone's screen since the 90s? Now contrast that with MS Word and PowerPoint, which reguarly freeze screens and flash "Not Responding," especially with many files open. Editing plain text simply requires much less memory, overhead, and fuss.  Plus, I don't have to rely on proprietary software to edit .doc or .docx files.  I can use any text editor I prefer---especially vim, which provides quicker navigation and editing capabilities anyway.
+- __Plain Text Editing__: Has a text editor frozen anyone's screen since the 90s? Now contrast that with MS Word and PowerPoint, which regularly freeze screens and flash "Not Responding," especially with many files open. Editing plain text simply requires much less memory, overhead, and fuss.  Plus, I don't have to rely on proprietary software to edit .doc or .docx files.  I can use any text editor I prefer---especially vim, which provides quicker navigation and editing capabilities anyway.
 
 - __Separation of Content and Formatting__: Whenever I use word, I can't help but worry about the formatting when I should be worrying about writing and composing documents. $\LaTeX$ and Beamer encourage you to write without interruption, and worry about formatting later.  And when it is time to format, $\LaTeX$ looks at your preamble to apply the settings _uniformly_ throughout the text. You won't encounter that familiar situation in Word where hitting tab can jump you a half inch or half a page.  Some of your document won't accidentally be double-spaced, while other parts are single-spaced with extra spacing in between paragraphs.
 
@@ -117,11 +117,6 @@ You should be able to save and run `pdflatex` on them if you have everything ins
 ### Vim: Tips and Tricks
 
 This is, without a doubt, the program I use (and advocate) the most. Aside from the basics, these are the features I use most.[^3] They include some changes to the `.vimrc` file, which resides in the home directory and defines the configuration of vim.  Mine can be found on <a href="https://github.com/mcocci/ConfigurationTemplates/blob/master/my.vimrc" target="_blank">Github</a> or as a <a href="/files/vimrc.txt" target="_blank">plain text file</a>.
-
-
-#### Remaps
-
-Remapping some of the features to more easily accessible keys can greatly improve productivity. Some bi
 
 
 #### Substitution
@@ -156,12 +151,12 @@ If you do the same sequence of strokes over and over again, consider using macro
 
 #### Laying Markers
 
-If you need to keep jumping back to a speciic section of your text or code, type `ma` while at that section (where `a` could be any letter).  This lays a marker at the location, which you can jump to from any point in your code by typing `` `a ``. 
+If you need to keep jumping back to a specific section of your text or code, type `ma` while at that section (where `a` could be any letter).  This lays a marker at the location, which you can jump to from any point in your code by typing `` `a ``. 
 
 
 #### Plugins
 
-You can also add additional features by intalling plugins. Some good ones include <a href="https://github.com/scrooloose/nerdcommenter" target="_blank">NerdCommenter</a> and <a href="https://github.com/Shougo/unite.vim" target="_blank">Unite.vim</a>. But before you do that, install <a href="https://github.com/tpope/vim-pathogen" target="_blank">Pathogen</a> first, which improves the whole process of installing and uninstalling vim plugin.
+You can also add additional features by installing plugins. Some good ones include <a href="https://github.com/scrooloose/nerdcommenter" target="_blank">NerdCommenter</a> and <a href="https://github.com/Shougo/unite.vim" target="_blank">Unite.vim</a>. But before you do that, install <a href="https://github.com/tpope/vim-pathogen" target="_blank">Pathogen</a> first, which improves the whole process of installing and uninstalling vim plugin.
 
 
 <section id="References"></a></section>
