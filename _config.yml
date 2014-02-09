@@ -1,0 +1,13 @@
+name:           "Matt Cocci"
+description:    ""
+
+url:            http://localhost:9001
+
+permalinks:     pretty
+pygments:       true
+
+port:           9001
+baseurl:        /
+encoding:       UTF-8
+layout:         default
+markdown:       kramdown

@@ -1,0 +1,18 @@
+---
+layout: default
+---
+<!-- This will be home page that has a listing of posts -->
+
+{% for post in paginator.posts %}
+    <div class="row-fluid">
+        <div class="span12">
+            <h2>{{ post.title }}</h2>
+            <h5>{{ post.date | date_to_long_string }}</h5>
+            <p>
+                <a href="{{ post.url }}">Read Post</a>
+            </p>
+        </div>
+    </div>
+{% endfor %}
+hello world!
+
