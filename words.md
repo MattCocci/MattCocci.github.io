@@ -7,7 +7,7 @@ layout: default
 
 "The Old Testament God repeatedly says he wants praise, and I translate that to mean the world wants describing."
 
-"America is a vast conspiracy to make you happy."
+<!--- "America is a vast conspiracy to make you happy." -->
 
 
 #### "Map" by Wislawa Szymborska
