@@ -58,7 +58,7 @@ My favorite coffee, ranked in descending order. Extra word if they have decent s
 Favorites ranked in descending order, but all of them are great.
 
 * __Famous Joe's__: Greenwich Village. Take people here.
-* __Pizza Italia__: Financial District. Grandma's slice. (Update: In a horrible twist both of fate and of the awful-food-daggar in the Financial District's side, this has closed. It may be reopening, but I haven't found any good info.)
+* __Pizza Italia__: Financial District. Grandma's slice. (Update: In a horrible twist both of fate and of the awful-food daggar in the Financial District's side, this has closed. It may be reopening, but I haven't found any good info.)
 * __Motorino__: East Village. Sit down place. I had a meatball pizza there two years ago that I weirdly still think about sometimes.
 * __Merilu Pizza al Metro__: Hell's Kitchen. Margherita style pizza.
 * __Sacco's__: Hell's Kitchen.
