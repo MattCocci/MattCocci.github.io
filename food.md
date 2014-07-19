@@ -39,7 +39,7 @@ Some restaurants I like, with suggestions.
 
 ### New York
 
-Grouped by food type; locations listed in description. Order only matters for some sections and will be noted. I'll also be filling in the other sections more soon, since Italian and Pizza are overrepresented right now.
+Grouped by food type; locations listed in description. Order only matters for some sections and will be noted. 
 
 #### Coffee Shops 
 
@@ -84,13 +84,13 @@ Favorites ranked in descending order, but all of them are great.
 
 #### Bakeries, Pastries, Desserts
 
-* __Levain Bakery__: UWS. My favorite place for dessert. Double chocolate chip combines the best parts of cookies and a brownies.
+* __Levain Bakery__: UWS. My favorite place for dessert. Double chocolate chip combines the best parts of cookies and brownies.
 * __Absolute Bagel__: UWS
 * __Leo's Bagels__: Financial District.
 * __Silvermoon Bakery__: UWS. California bun and brioche are excellent.
-* __Bouchon Bakery__: UWS (kinda), or Columbus Circle, in the Time Warner Shopping Center. French pastries while everyone else is shopping, including really light, four inch tall chocolate croissants.
+* __Bouchon Bakery__: UWS (kinda), or rather Columbus Circle, in the Time Warner Shopping Center. French pastries for you while everyone else is shopping, including really light, four inch tall chocolate croissants.
 * __Eileen's Special Cheesecake__: SoHo. Individual sizes.
-* __Breads Bakery__: Union Square. Very fresh, top-notch pastries.
+* __Breads Bakery__: Union Square. Very fresh top-notch pastries.
 * __City Cakes__: Chelsea.
 * __Gelato Ti Amo__: Financial District. Coffee and brandy gelato.
 
