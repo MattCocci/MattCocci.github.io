@@ -7,22 +7,20 @@ layout: computing
 
 ### Introduction
 
-In the past two years, I've turned more and more to command line tools which have drastically improved my computing experience. That follows mostly from these characteristics that most command line tools have in common:
+In the past two years, I've turned more and more to command line tools, and haven't really looked back. That follows mostly from these characteristics that most command line tools have in common:
 
 - __Low Overhead__: My favorite programs and computing environments are often very bare-bones, requiring little memory that would otherwise freeze up even the crappiest old computer. They just get out of the way, focusing on content rather than a flashy, fussy interface.
-- __Greater Efficiency__: Point and click is not efficient.  It's slow, and it doesn't scale well with larger tasks and projects. My favorite programs work at the command prompt for experimentation and quick results, while _also_ working in a script for replication, repetition, and scale.
+- __Greater Efficiency__: Point and click is obviously not efficient.  It's slow, and it doesn't scale well with larger tasks and projects. My favorite programs work at the command prompt for experimentation and quick results, while _also_ working in a script for replication, repetition, and scale.
 - __Customization__: Fine-tuning and adaptability are always desirable. This happens in various "rc" and "config" files.  You can find mine on <a href="https://github.com/MattCocci/ConfigurationTemplates" target="_blank">Github</a>, although I'll talk about some of my favorite customizations below.\\
 
 Now for some specifics.
-
 
 
 <section id="OperatingSystem"></a></section>
 
 ### Operating System
 
-Of course, the OS is an important choice, which is why I put down <a href="http://www.ubuntu.com" target="_blank">my thoughts</a> elsewhere in greater detail.
-
+Of course, the OS is an important choice, which is why I put down <a href="http://www.ubuntu.com" target="_blank">my thoughts</a> elsewhere in greater detail.  
 I run it with the Gnome desktop, though the terminal and Chrome occupy my screen more than anything.
 
 
@@ -42,7 +40,7 @@ This is how I spend most of my computing time when I'm not online.  It looks thi
 
 - __Tmux__: This is the program that lets me split up the terminal as you see above. It divides a window into panes that each start out as a separate command prompt.  And if splitting panes in the same window isn't enough, it also lets you create multiple _windows_, which are like browser tabs that you can page through. They're listed in the black bar at the bottom. But even beyond that, the really killer feature might be that, after getting new panes and windows just the way you like them, you can "detach" from that session, start a new one, and then re-attach later to pick up right where you left off. This way, you can have separate "sessions" for work vs. home coding or for different projects.[^1] 
 
-- __Vim__: The left-hand pane is just vim, a fancy text editor.  It's like a version of Notepad that's not absolutely terrible. At the end of this note, I've placed some vim tricks I've found super helpful, along with my cheatsheet. But before getting too detailed, I'll just mention the main advantages, which include
+- __Vim__: The left-hand pane is just vim, the excellent text editor.  At the end of this note, I've placed some vim tricks I've found super helpful, along with my cheatsheet. But before getting too detailed, I'll just mention the main advantages, which include
     - _Different Modes_: There's a mode for entering text (actually typing words and letters) and a mode for moving around---which essentially puts tricked-out arrow keys and keyboard shortcuts within reach of the home keys.  Because of this, you can fly around and edit the document more easily that with a mouse or the usual navigation keys. 
     - _Text Only_: Microsoft Word is annoying because it encourages you to worry about how your content _looks_ when you're trying to determine what your content should _say_.  These things are usually incompatible. Vim gets out of the way, and lets you type straight text.  Let downstream programs (like $\LaTeX$ or a Markdown parser) worry about formatting. 
 <p></p>
@@ -64,7 +62,7 @@ However, it's less strong handling text, which is where the various command line
 
 ##### __Python__
 
-Python is the language to learn if you only have time for one.  Compared to R, Matlab, Stata, etc., it can be applied to much more general problems (like shell scripting) with much less overhead and kludginess. It's also vastly superior if you're working with text and regular expressions.
+Python is the language to learn if you want to do everything with one language.  Compared to R, Matlab, Stata, etc., it can be applied to much more general problems (like shell scripting) with much less overhead and kludginess. It's also vastly superior if you're working with text and regular expressions.
 
 On top of that, it now has great libraries for matrix arrays, plotting, and handling datasets---nearly on par with R and Matlab.  My only gripe is that those libraries require a sometimes-annoying amount of cognitive overhead to use.   For example, unlike Matlab and R, you can't just fire it up and start playing around at the command line. You need to import from libraries like NumPy, SciPy, Matplotlib, which is fine, except that the location of certain functions within those libraries isn't always immediately obvious (or they might be nested several layers down into the libraries).
 
@@ -209,4 +207,4 @@ I also suggest backing them up on Github or Dropbox so there's no chance of losi
 
 [^5]: If you want a good introduction, type `vimtutor` at the command line and go through the tutorial. That gets you the basics. 
 
-[^6]: Type `:reg` to show current registers.
+^6]: Type `:reg` to show current registers.

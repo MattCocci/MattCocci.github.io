@@ -3,9 +3,10 @@ layout: about_layout
 ---
 
 ### About Me
-After winning Time Magazine's Person of the Year in 2006, I graduated from Central Catholic High School in Monopoly-famous Reading, Pennsylvania.  After high school, I studied Finance, Statistics, and Mathematics at the University of Pennsylvania---a top college on the New York Times' ranking of schools that give its prestigious "Hookup Culture and Entitled Millennials News Bureau" something to write about.
 
-After I was denied a job at said Bureau, I began work as an economics research assistant. In the next couple of years, I hope to attend graduate school in economics, where I plan to study topics at the intersection of macroeconomics and finance, as well as the econometric methods used in those fields. Or, to put it simply, I'm into those topics that end conversations very quickly.
+After winning Time Magazine's Person of the Year in 2006, I graduated from Central Catholic High School in Monopoly-famous (or _NY Times_ poverty-famous) Reading, Pennsylvania.  After high school, I studied Finance, Statistics, and Mathematics at the University of Pennsylvania. 
+
+After college, I began work as an economics research assistant in New York City. In the next couple of years, I hope to attend graduate school in economics, where I plan to study topics at the intersection of macroeconomics and finance, as well as the econometric methods used in those fields. Or, to put it simply, I'm into those topics that end conversations with non-economists very quickly.
 
 <!--
 and graduate non-degree student in NYU's Mathematics Department. The latter has occurred to the great confusion of many friends and family who think I'm getting some sort of master's degree. However, I _do_ hope eventually to attend graduate school in economics, where I plan to study topics at the intersection of macroeconomics and finance, as well as the econometric methods used in those fields. Or, to put it simply, I'm into those topics that end conversations very quickly.
@@ -16,7 +17,7 @@ and graduate non-degree student in NYU's Mathematics Department. The latter has 
 
 I'm working from the principle that sites about _people_ are usually terrible, while sites about _things_ can sometimes be good.  If you've read another section on this page, you no doubt agree with at least half of that sentiment. 
 
-So this terrible page aside, the site will eventually be oriented more towards neat _things_ in statistics, finance, computing, or math. I'm focusing these topics because 
+So this terrible page aside, I hope eventually to orient this site more towards neat _things_ in statistics, finance, computing, or math. I'm focusing these topics because 
 
 1. These subjects are really interesting---even more so when they overlap or complement each other.
 
