@@ -20,5 +20,5 @@ So this terrible page aside, the site will eventually be oriented more towards n
 
 1. These subjects are really interesting---even more so when they overlap or complement each other.
 
-2. I have a fair amount of <a href="http://github.com/mcocci/Notes" target="_blank">notes</a> from my undergrad studies that can be repurposed into posts some might find useful or informative. And that's better than letting them languish in Dropbox---particularly since I've benefited from other people doing the same thing back when I was an undergrad. Consider it a "pay it forward" type of thing. Except for that part where I flip someone keys to a Jaguar. That's probably not feasible.
+2. I have a fair amount of <a href="http://github.com/MattCocci/Notes" target="_blank">notes</a> from my undergrad studies that can be repurposed into posts some might find useful or informative. And that's better than letting them languish in Dropbox---particularly since I've benefited from other people doing the same thing back when I was an undergrad. Consider it a "pay it forward" type of thing. Except for that part where I flip someone keys to a Jaguar. That's probably not feasible.
 
