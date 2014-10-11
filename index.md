@@ -10,5 +10,6 @@ More content on its way, but until then, you can check out
 * [My Computing Setup, Tips, and References ](/computing.html)
 * [Online Resources](/online_resources.html)
 * [Food in Philly and NY](/food.html)
+* [Papers & Articles](/papers_articles.html)
 
 
