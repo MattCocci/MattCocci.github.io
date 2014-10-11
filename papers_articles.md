@@ -2,6 +2,8 @@
 layout: default 
 ---
 
+### Papers & Articles
+
 * Marco Del Negro, Stefano Eusepi, Marc Giannoni, Argia Sbordone, Andrea Tambalotti, Matthew Cocci, Raiden Hasegawa, and Matthew Henry Linder. "The FRBNY DSGE Model." Staff Reports 647, Federal Reserve Bank of New York, 2013. (<a href="http://ideas.repec.org/p/fip/fednsr/647.html" target="_blank">link</a>)
 
 * Matthew Cocci, Marco Del Negro, Stefano Eusepi, Marc Giannoni, and
