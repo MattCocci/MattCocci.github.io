@@ -15,7 +15,7 @@ and graduate non-degree student in NYU's Mathematics Department. The latter has 
 
 ### About this Site
 
-I put together this site using [Jekyll](http://www.jeyllrb.com/] with the [Bootstrap](http://getbootstrap.com) framework. This offered the following benefits:
+I put together this site using [Jekyll](http://www.jeyllrb.com) with the [Bootstrap](http://getbootstrap.com) framework. This offered the following benefits:
 
   1. I didn't know much about web programming at all, and this was a way to learn. 
   2. Jekyll seemed like an easy, low-overhead, but still instructive way to learn (plus Github supports it).
