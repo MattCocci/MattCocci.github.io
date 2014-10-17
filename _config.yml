@@ -13,7 +13,7 @@ layout:         default
 markdown:       kramdown
 
 # My sites
-Twitter:    http://twitter.com/MattCocci
-Github:     http://github.com/MattCocci
-Notes:      http://github.com/MattCocci/Notes
-Goodreads:  https://www.goodreads.com/user/show/18990627-matthew-cocci
+Twitter:    "http://twitter.com/MattCocci"
+Github:     "http://github.com/MattCocci"
+Notes:      "http://github.com/MattCocci/Notes"
+Goodreads:  "https://www.goodreads.com/user/show/18990627-matthew-cocci"
