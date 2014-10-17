@@ -12,8 +12,7 @@ More content on its way, but until then, you can check out
 * [Food in Philly and NY](/food.html)
 * [Papers & Articles](/papers_articles.html)
 
-test
-{% include insert_link.html param="Twitter" %}
-{% include insert_link.html param="Github" %}
-{% include insert_link.html param="Notes" %}
+sites.myPages.Twitter
+sites.myPages.Github
+sites.myPages.Notes
 

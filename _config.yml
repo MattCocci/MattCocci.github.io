@@ -13,7 +13,8 @@ layout:         default
 markdown:       kramdown
 
 # My sites
-Twitter:    "http://twitter.com/MattCocci"
-Github:     "http://github.com/MattCocci"
-Notes:      "http://github.com/MattCocci/Notes"
-Goodreads:  "https://www.goodreads.com/user/show/18990627-matthew-cocci"
+myPages: 
+  Twitter:    <a href="http://twitter.com/MattCocci" target="_blank">Twitter</a>
+  Github:     <a href="http://github.com/MattCocci" target="_blank">Github</a>
+  Notes:      <a href="http://github.com/MattCocci/Notes" target="_blank">Notes</a>
+  Goodreads:  <a href="https://www.goodreads.com/user/show/18990627-matthew-cocci" target="_blank">Goodreads</a>
