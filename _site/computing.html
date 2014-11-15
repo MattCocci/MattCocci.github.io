@@ -72,6 +72,7 @@
             <li><a href="/computing.html">Computing</a></li>
             <li><a href="/food.html">Food</a></li>
             <li><a href="/online_resources.html">Online Resources</a></li>
+            <li><a href="/papers_articles.html">Papers & Articles</a></li>
             <!-- <li><a href="/words.html">Words</a></li> -->
           </ul>
         </div><!--/.nav-collapse -->
@@ -86,11 +87,11 @@
 
 <h3 id="introduction">Introduction</h3>
 
-<p>In the past two years, I’ve turned more and more to command line tools which have drastically improved my computing experience. That follows mostly from these characteristics that most command line tools have in common:</p>
+<p>In the past two years, I’ve turned more and more to command line tools, and haven’t really looked back. That follows mostly from these characteristics that most command line tools have in common:</p>
 
 <ul>
   <li><strong>Low Overhead</strong>: My favorite programs and computing environments are often very bare-bones, requiring little memory that would otherwise freeze up even the crappiest old computer. They just get out of the way, focusing on content rather than a flashy, fussy interface.</li>
-  <li><strong>Greater Efficiency</strong>: Point and click is not efficient.  It’s slow, and it doesn’t scale well with larger tasks and projects. My favorite programs work at the command prompt for experimentation and quick results, while <em>also</em> working in a script for replication, repetition, and scale.</li>
+  <li><strong>Greater Efficiency</strong>: Point and click is obviously not efficient.  It’s slow, and it doesn’t scale well with larger tasks and projects. My favorite programs work at the command prompt for experimentation and quick results, while <em>also</em> working in a script for replication, repetition, and scale.</li>
   <li><strong>Customization</strong>: Fine-tuning and adaptability are always desirable. This happens in various “rc” and “config” files.  You can find mine on <a href="https://github.com/MattCocci/ConfigurationTemplates" target="_blank">Github</a>, although I’ll talk about some of my favorite customizations below.\</li>
 </ul>
 
@@ -100,9 +101,8 @@
 
 <h3 id="operating-system">Operating System</h3>
 
-<p>Of course, the OS is an important choice, which is why I put down <a href="http://www.ubuntu.com" target="_blank">my thoughts</a> elsewhere in greater detail.</p>
-
-<p>I run it with the Gnome desktop, though the terminal and Chrome occupy my screen more than anything.</p>
+<p>Of course, the OS is an important choice, which is why I put down <a href="http://www.ubuntu.com" target="_blank">my thoughts</a> elsewhere in greater detail.<br />
+I run it with the Gnome desktop, though the terminal and Chrome occupy my screen more than anything.</p>
 
 <section id="MySetup"></section>
 
@@ -125,7 +125,7 @@
     <p><strong>Tmux</strong>: This is the program that lets me split up the terminal as you see above. It divides a window into panes that each start out as a separate command prompt.  And if splitting panes in the same window isn’t enough, it also lets you create multiple <em>windows</em>, which are like browser tabs that you can page through. They’re listed in the black bar at the bottom. But even beyond that, the really killer feature might be that, after getting new panes and windows just the way you like them, you can “detach” from that session, start a new one, and then re-attach later to pick up right where you left off. This way, you can have separate “sessions” for work vs. home coding or for different projects.<sup id="fnref:1"><a href="#fn:1" class="footnote">1</a></sup> </p>
   </li>
   <li>
-    <p><strong>Vim</strong>: The left-hand pane is just vim, a fancy text editor.  It’s like a version of Notepad that’s not absolutely terrible. At the end of this note, I’ve placed some vim tricks I’ve found super helpful, along with my cheatsheet. But before getting too detailed, I’ll just mention the main advantages, which include</p>
+    <p><strong>Vim</strong>: The left-hand pane is just vim, the excellent text editor.  At the end of this note, I’ve placed some vim tricks I’ve found super helpful, along with my cheatsheet. But before getting too detailed, I’ll just mention the main advantages, which include</p>
     <ul>
       <li><em>Different Modes</em>: There’s a mode for entering text (actually typing words and letters) and a mode for moving around—which essentially puts tricked-out arrow keys and keyboard shortcuts within reach of the home keys.  Because of this, you can fly around and edit the document more easily that with a mouse or the usual navigation keys. </li>
       <li><em>Text Only</em>: Microsoft Word is annoying because it encourages you to worry about how your content <em>looks</em> when you’re trying to determine what your content should <em>say</em>.  These things are usually incompatible. Vim gets out of the way, and lets you type straight text.  Let downstream programs (like $\LaTeX$ or a Markdown parser) worry about formatting. </li>
@@ -152,7 +152,7 @@
 
 <h5 id="python"><strong>Python</strong></h5>
 
-<p>Python is the language to learn if you only have time for one.  Compared to R, Matlab, Stata, etc., it can be applied to much more general problems (like shell scripting) with much less overhead and kludginess. It’s also vastly superior if you’re working with text and regular expressions.</p>
+<p>Python is the language to learn if you want to do everything with one language.  Compared to R, Matlab, Stata, etc., it can be applied to much more general problems (like shell scripting) with much less overhead and kludginess. It’s also vastly superior if you’re working with text and regular expressions.</p>
 
 <p>On top of that, it now has great libraries for matrix arrays, plotting, and handling datasets—nearly on par with R and Matlab.  My only gripe is that those libraries require a sometimes-annoying amount of cognitive overhead to use.   For example, unlike Matlab and R, you can’t just fire it up and start playing around at the command line. You need to import from libraries like NumPy, SciPy, Matplotlib, which is fine, except that the location of certain functions within those libraries isn’t always immediately obvious (or they might be nested several layers down into the libraries).</p>
 
@@ -245,7 +245,7 @@
 
 <p>There’s certain phrases I use a lot while coding, or when writing a document. For example, in $\LaTeX$, I might often type <code>\begin{enumerate}</code> to start a list.  Or, if I’m writing a section on the Riemann integral, I might need to write the rather complicated expression <code>(\mathbb{R},\mathscr{M},\mu)</code> to generate the short and simple representation of a measure space, $(\mathbb{R},\mathscr{M},\mu)$. </p>
 
-<p>Now rather than typing these things every time, I can yank to a named register that will hold that phrase in reserve.  If I highlight text, then use <code>",  a,  y</code>, this will yank the text to the <code>a</code> register.  You can paste with <code>", a, p</code>. This will work for any letter besides a.<sup id="fnref:6"><a href="#fn:6" class="footnote">6</a></sup>  </p>
+<p>Now rather than typing these things every time, I can yank to a named register that will hold that phrase in reserve.  If I highlight text, then use <code>",  a,  y</code>, this will yank the text to the <code>a</code> register.  You can paste with <code>", a, p</code>. This will work for any letter besides a.[^6]  </p>
 
 <h4 id="macros">Macros</h4>
 
@@ -306,6 +306,7 @@
 
 <h3 id="footnotes">Footnotes</h3>
 
+<p>^6]: Type <code>:reg</code> to show current registers.</p>
 <div class="footnotes">
   <ol>
     <li id="fn:1">
@@ -322,9 +323,6 @@
     </li>
     <li id="fn:5">
       <p>If you want a good introduction, type <code>vimtutor</code> at the command line and go through the tutorial. That gets you the basics.  <a href="#fnref:5" class="reversefootnote">&#8617;</a></p>
-    </li>
-    <li id="fn:6">
-      <p>Type <code>:reg</code> to show current registers. <a href="#fnref:6" class="reversefootnote">&#8617;</a></p>
     </li>
   </ol>
 </div>

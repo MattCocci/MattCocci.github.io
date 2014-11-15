@@ -12,7 +12,3 @@ More content on its way, but until then, you can check out
 * [Food in Philly and NY](/food.html)
 * [Papers & Articles](/papers_articles.html)
 
-site.myPages.Twitter
-site.myPages.Github
-site.myPages.Notes
-
