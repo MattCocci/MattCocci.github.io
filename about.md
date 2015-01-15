@@ -25,7 +25,8 @@ I put together this site using <a href="http://www.jekyllrb.com" target="_blank"
   1. I didn't know much about web programming at all, and this was a way to learn. 
   2. Jekyll seemed like an easy, low-overhead, but still instructive way to learn (plus Github supports it).
   3. Bootstrap looks really nice on mobile and tablets. And since I've introduced the Bootstrap theme, my mobile traffic has spiked from zero mobile visits to a whopping one (that time when I checked my phone to see how it looks).
-  4. Finally, Wordpress is _over_ (cut to Portlandia). 
+  4. Finally, Wordpress is <a href="https://www.youtube.com/watch?v=YlGqN3AKOsA" target="_blank">_over_</a>. 
+
 
 <!--
 Now for content. I'm working from the principle that sites about _people_ are usually terrible, while sites about _things_ can sometimes be good.  If you've read another section on this page, you no doubt agree with at least half of that sentiment. 
